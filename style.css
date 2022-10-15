@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+.hamburger {
+    display: none;
+}
+
+.tot-nav {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    background-color: rgb(57, 56, 56);
+    overflow: hidden;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 1rem;
+}
+
+.display-none {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-part {
+    display: flex;
+    flex-direction: row;
+}
+
+.tot-nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.tot-nav a:hover {
+    background-color: rgb(62, 62, 62);
+    color: rgb(78, 189, 89);
+}
+
+
+.tot-nav a:active {
+    background-color: #4f8370;
+    color: white;
+}
+
+.tot-nav .icon {
+    display: none;
+}
+
+.end {
+    align-self: center;
+}
+
+.end-item1,
+.end-item2 {
+    justify-items: center;
+}
+
+.first-part button {
+    margin: auto;
+}
+
+.first-part p {
+    color: white;
+}
+
+.end button:hover {
+    border: 2px solid white;
+    background-color: #146c43;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .display-none {
+        display: none;
+    }
+
+    .end {
+        display: none;
+    }
+    
+    .hamburger {
+    display: block;
+    color: white;
+    }
+}
+
+/* sto piangendoooooooooo */
